@@ -104,7 +104,8 @@ return (write(1, buffer, 18));
 /**
 * Description: print_re - reverse string
 * @ss: string argument for reverse
-* Return :int
+*
+* Return: the string reverse
 */
 
 int print_re(va_list ss)
