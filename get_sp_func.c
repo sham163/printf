@@ -34,7 +34,7 @@ return (equal);
 * Description: get_sp - get the specifire
 * @s: string
 * Return: function
-*/                                                                                    int (*get_sp(char *s))(va_list ss)
+*/                                                                                int (*get_sp(char *s))(va_list ss)
 {
 spt sps[] = {
 {"s", print_s},
