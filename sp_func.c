@@ -10,7 +10,7 @@
 
 int print_s(va_list ss)
 {
-char st = va_arg(ss, char);
+char *st = va_arg(ss, char*);
 int cou = 0;
 int s = 0;
 char buffer[BUFFER_SIZE];
