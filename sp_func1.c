@@ -103,7 +103,7 @@ return (write(1, buffer, 18));
 
 /**
 * Description: print_re - reverse string
-* @ss: argument
+* @ss: string argument for reverse
 * Return :int
 */
 
