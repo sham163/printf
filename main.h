@@ -34,6 +34,7 @@ int print_o(va_list ss);
 char ro13_char(char c);
 
 int _putchar(char c);
-int _strlen(char *s);int _printf(const char *format, ...);
+int _strlen(char *s);
+int _printf(const char *format, ...);
 int (*get_sp(char *s))(va_list ss);
 #endif
